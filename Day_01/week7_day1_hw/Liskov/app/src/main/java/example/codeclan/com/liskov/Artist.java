@@ -19,6 +19,9 @@ class Artist {
         } else if(shape instanceof Circle) {
             return "I'm drawing a circle!";
         }
+           else if (shape instanceof Triangle){
+            return "I'm drawing a triangle!";
+        }
 
         return null;
     }
