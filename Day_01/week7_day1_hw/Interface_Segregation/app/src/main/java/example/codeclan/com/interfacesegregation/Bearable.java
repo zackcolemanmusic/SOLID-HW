@@ -11,13 +11,13 @@ public interface Bearable{
     // and it certainly breaks the interface segregation principle, by forcing the implementation of methods that are extremely unlikely to be used.
 
     public Salmon riverFish();
-    public Seal iceFish();
+//    public Seal iceFish();
     public Honey harvestHoney();
     public Bamboo harvestBamboo();
     public String sleep();
     public String climbRock();
     public String climbTree();
-    public String climbIceberg();
+//    public String climbIceberg();
     public void eat(Edible food);
 
 }
