@@ -1,0 +1,34 @@
+What is one benefit of using generics in Java classes?
+
+Being able to tighten up and refactor the code so you can have two "Types" primitive variables for the same class. Basically making it a flexible class. 
+
+
+Name an example of a generic class that we have used in Java?
+
+Using the ArrayList, The arrow brackets show that we have been using generics. 
+
+
+
+What is the syntax for declaring a generic class?
+
+
+"T"
+
+
+At what point does the generic type get specified?
+
+
+When we create the class, we have to specify the type when we instantiate the properties. 
+
+
+Can generic types be of primitive type?
+
+
+Yea, For example in the video explaining they use, int and stirng, witch are both primitive types. 
+
+
+
+Can a generic class take more than one type parameters?
+
+You can use more than one type parameter, if you have for example int id, and string name you could use "T" for int, and V for "String".
+
